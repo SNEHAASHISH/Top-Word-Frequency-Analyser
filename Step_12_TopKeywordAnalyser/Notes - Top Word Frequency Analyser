@@ -1,0 +1,21 @@
+To Build: Top Word Frequency Analyser
+
+Requirements:-
+ - TaskManager: To handle all task considering each task reads a separate file and find top keywords in it.
+ - Runnable-based Task: It takes file path as i/p and run() finds top keywords.
+ - Method: Finds top keywords if set of keywords is passed.
+
+Coding it:-
+ - Executor Service (TaskManager)
+ - File Reading (FileUtility)
+ - HashMap
+ - ArrayList
+ - Comparator for Sorting
+        (KeywordCount)
+   |
+   |
+   |==> TopKeywordAnalyser
+
+ ===> How can this be even more efficient for more scalability <===
+
+ Getting file paths from database and processing each file and saving results back in the database...
